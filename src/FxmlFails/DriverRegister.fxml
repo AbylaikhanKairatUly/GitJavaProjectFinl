@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="770.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DriverSignUp">
+    <children>
+      <ImageView fitHeight="489.0" fitWidth="627.0" layoutX="51.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../sample/Icon/green.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="DriverName" layoutX="111.0" layoutY="120.0" prefHeight="32.0" prefWidth="244.0" promptText="Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="DriverSurname" layoutX="111.0" layoutY="179.0" prefHeight="32.0" prefWidth="244.0" promptText="Surname">
+         <font>
+            <Font name="Aharoni Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PIN" layoutX="381.0" layoutY="238.0" prefHeight="32.0" prefWidth="259.0" promptText="Personal identification number">
+         <font>
+            <Font name="Aharoni Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="DriverNumber" layoutX="111.0" layoutY="238.0" prefHeight="32.0" prefWidth="244.0" promptText="Number">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="DriversCarModel" layoutX="381.0" layoutY="120.0" prefHeight="32.0" prefWidth="259.0" promptText="Сar model">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CarsNumber" layoutX="381.0" layoutY="179.0" prefHeight="32.0" prefWidth="259.0" promptText="Сar number">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="DriverPassword" layoutX="111.0" layoutY="304.0" prefHeight="32.0" prefWidth="244.0" promptText="Password">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="DriverRPassword" layoutX="381.0" layoutY="304.0" prefHeight="32.0" prefWidth="259.0" promptText="Repeat Password">
+         <font>
+            <Font name="Aharoni Bold" size="12.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="DriverCreatAcc" layoutX="511.0" layoutY="379.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Creat" />
+      <Button fx:id="DriverCancelButton" layoutX="404.0" layoutY="379.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Cancel" />
+      <Label layoutX="159.0" layoutY="32.0" prefHeight="67.0" prefWidth="475.0" text="Account registration">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

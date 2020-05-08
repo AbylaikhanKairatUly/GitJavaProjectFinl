@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="451.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+    <children>
+        <ImageView fitHeight="475.0" fitWidth="679.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/color.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="441.0" fitWidth="291.0" layoutX="378.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/colorSign.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="UserNumber" layoutX="438.0" layoutY="137.0" prefHeight="31.0" prefWidth="214.0" promptText="Number">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </TextField>
+        <Button fx:id="LogInUser" layoutX="416.0" layoutY="276.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="214.0" style="-fx-background-color: #1b5e20;" text="Log in" />
+        <Button fx:id="SignUPUser" layoutX="20.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="141.0" style="-fx-background-color: #ffeb3b;" text="Sing Up" />
+        <Button fx:id="ForgotUser" layoutX="416.0" layoutY="326.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="214.0" style="-fx-background-color: #b71c1c;" text="Forgot password" />
+        <Label layoutX="13.0" layoutY="46.0" prefHeight="91.0" prefWidth="355.0" text="Welcome to the taxi App">
+            <font>
+                <Font name="BatangChe" size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="129.0" prefHeight="31.0" prefWidth="365.0" text=" If you do not have a personal account, please go to the ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="20.0" layoutY="145.0" prefHeight="47.0" prefWidth="340.0" text="registration office, if you are registered, log in.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="43.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/avatar.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="31.0" fitWidth="34.0" layoutX="386.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="25.0" fitWidth="41.0" layoutX="399.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/colorTele.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="31.0" fitWidth="34.0" layoutX="396.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/key.png" />
+            </image>
+        </ImageView>
+        <PasswordField fx:id="UserPassword" layoutX="435.0" layoutY="192.0" prefHeight="25.0" prefWidth="214.0" promptText="Password">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </PasswordField>
+    </children>
+</AnchorPane>

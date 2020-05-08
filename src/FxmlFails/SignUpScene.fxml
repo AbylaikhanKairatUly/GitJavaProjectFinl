@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+    <children>
+        <ImageView fitHeight="474.0" fitWidth="679.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/color.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="403.0" fitWidth="496.0" layoutX="159.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../sample/Icon/colorRos.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="UserName" layoutX="241.0" layoutY="122.0" prefHeight="25.0" prefWidth="205.0" promptText="Name" />
+        <TextField fx:id="UserSurname" layoutX="241.0" layoutY="171.0" prefHeight="25.0" prefWidth="205.0" promptText="Surname" />
+        <TextField fx:id="UserEmail" layoutX="241.0" layoutY="223.0" prefHeight="25.0" prefWidth="205.0" promptText="Email" />
+        <TextField fx:id="UserNumber" layoutX="241.0" layoutY="270.0" prefHeight="25.0" prefWidth="205.0" promptText="Number" />
+        <PasswordField fx:id="UserPassword" layoutX="241.0" layoutY="319.0" prefHeight="25.0" prefWidth="205.0" promptText="Password" />
+        <PasswordField fx:id="UserRPassword" layoutX="241.0" layoutY="369.0" prefHeight="25.0" prefWidth="205.0" promptText="Repeat password" />
+        <Button fx:id="CreatButton" layoutX="564.0" layoutY="369.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Create " />
+        <Button fx:id="cancel" layoutX="488.0" layoutY="369.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" text="Cancel" />
+        <Label layoutX="279.0" layoutY="61.0" prefHeight="41.0" prefWidth="328.0" text="Account registration" textFill="#ae4a4a">
+            <font>
+                <Font name="Berlin Sans FB" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

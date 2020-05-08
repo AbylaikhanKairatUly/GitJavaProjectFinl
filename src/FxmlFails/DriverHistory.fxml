@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="511.0" prefWidth="557.0" style="-fx-background-color: #bcaaa4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DriverHistory">
+   <children>
+      <TextArea fx:id="history" layoutX="36.0" layoutY="27.0" prefHeight="415.0" prefWidth="486.0" />
+      <TextArea fx:id="wallet" layoutX="291.0" layoutY="449.0" prefHeight="48.0" prefWidth="231.0" />
+   </children>
+</AnchorPane>
